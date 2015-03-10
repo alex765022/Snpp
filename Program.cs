@@ -14,7 +14,7 @@ namespace snpp
 		{
 			if (args.Length != 2)
 			{
-				Console.WriteLine("Please enter 2 arguments.");
+				Console.WriteLine("Please enter 2 arguments!");
 			}
 			else
 			{
