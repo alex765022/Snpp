@@ -19,7 +19,7 @@ namespace snpp
 			else
 			{
 
-				const string myFile = "trace.log"; // TODO: get this from the user.  
+				const string myFile = "trace.log"; //TODO: get this from the user.  
 				TextWriterTraceListener myTextListener = new TextWriterTraceListener(myFile);
 				Trace.Listeners.Add(myTextListener);
 				Trace.AutoFlush = true;
